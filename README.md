@@ -21,7 +21,7 @@ A Cisco VXLAN Layer 2 fabric using PIM Sparse Mode for multicast-based BUM traff
 
 ## Topology
 
-![Topology](diagrams/vxlan-pim-topology.png)
+![Topology](diagrams/vxlan-pim.png)
 
 ---
 
