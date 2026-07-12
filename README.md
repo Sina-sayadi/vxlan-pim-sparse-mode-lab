@@ -1,5 +1,5 @@
 # vxlan-pim-sparse-mode-lab
-**Cisco VXLAN Layer 2 Fabric using PIM Sparse Mode, Static RP, IGMP and OSPF Underlay.**
+Cisco VXLAN Layer 2 Fabric using PIM Sparse Mode, Static RP, IGMP and OSPF Underlay.
 
 A Cisco VXLAN Layer 2 fabric using PIM Sparse Mode for multicast-based BUM traffic forwarding. The underlay is built with OSPF Area 0, while a static Rendezvous Point (RP) is configured for multicast distribution.
 
@@ -73,7 +73,12 @@ Compared to Ingress Replication, multicast-based VXLAN reduces replication overh
 
 ## Related Lab
 
-A companion lab implementing VXLAN using Ingress Replication is also available in my GitHub repositories for comparison.
+This repository focuses on VXLAN using multicast (PIM Sparse Mode).
+
+For the Ingress Replication implementation, see:
+
+- **VXLAN Ingress Replication Lab**  
+  https://github.com/Sina-sayadi/vxlan-ingress-replication-lab
 
 ---
 
