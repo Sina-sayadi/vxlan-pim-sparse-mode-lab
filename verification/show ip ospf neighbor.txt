@@ -1,0 +1,51 @@
+show ip ospf neighbor 
+
+```
+R1#show ip ospf neighbor 
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+0.0.0.3           0   FULL/  -        00:00:36    192.168.13.2    Ethernet1/2
+0.0.0.2           0   FULL/  -        00:00:39    192.168.12.2    Ethernet1/1
+
+R3#show ip ospf neighbor 
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+0.0.0.5           0   FULL/  -        00:00:37    192.168.35.2    Ethernet1/4
+0.0.0.1           0   FULL/  -        00:00:37    192.168.13.1    Ethernet1/2
+0.0.0.4           0   FULL/  -        00:00:39    192.168.34.2    Ethernet1/1
+
+R2#show ip ospf neighbor                                              
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+0.0.0.5           0   FULL/  -        00:00:30    192.168.25.2    Ethernet1/3
+0.0.0.4           0   FULL/  -        00:00:37    192.168.24.2    Ethernet1/2
+0.0.0.1           0   FULL/  -        00:00:35    192.168.12.1    Ethernet1/1
+
+R5#show ip ospf neighbor 
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+0.0.0.3           0   FULL/  -        00:00:38    192.168.35.1    Ethernet1/4
+0.0.0.2           0   FULL/  -        00:00:31    192.168.25.1    Ethernet1/3
+2.2.2.2           1   FULL/BDR        00:00:36    192.168.52.2    Ethernet1/0
+
+R4#show ip ospf neighbor 
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+0.0.0.2           0   FULL/  -        00:00:34    192.168.24.1    Ethernet1/2
+0.0.0.3           0   FULL/  -        00:00:36    192.168.34.1    Ethernet1/1
+1.1.1.1           1   FULL/BDR        00:00:38    192.168.41.2    Ethernet1/0
+
+rtr-vtep-2#show ip ospf neighbor 
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+0.0.0.5           1   FULL/DR         00:00:34    192.168.52.1    GigabitEthernet1
+
+rtr-vtep-1#show ip ospf neighbor 
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+0.0.0.4           1   FULL/DR         00:00:37    192.168.41.1    GigabitEthernet1
+
+```
+
+
+

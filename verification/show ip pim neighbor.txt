@@ -1,0 +1,73 @@
+show ip pim neighbor 
+
+```
+rtr-vtep-1#show ip pim neighbor 
+PIM Neighbor Table
+Mode: B - Bidir Capable, DR - Designated Router, N - Default DR Priority,
+      P - Proxy Capable, S - State Refresh Capable, G - GenID Capable,
+      L - DR Load-balancing Capable
+Neighbor          Interface                Uptime/Expires    Ver   DR
+Address                                                            Prio/Mode
+192.168.41.1      GigabitEthernet1         00:34:05/00:01:33 v2    1 / S P G
+
+rtr-vtep-2#show ip pim neighbor 
+PIM Neighbor Table
+Mode: B - Bidir Capable, DR - Designated Router, N - Default DR Priority,
+      P - Proxy Capable, S - State Refresh Capable, G - GenID Capable,
+      L - DR Load-balancing Capable
+Neighbor          Interface                Uptime/Expires    Ver   DR
+Address                                                            Prio/Mode
+192.168.52.1      GigabitEthernet1         00:34:37/00:01:31 v2    1 / S P G
+
+R4#show ip pim neighbor 
+PIM Neighbor Table
+Mode: B - Bidir Capable, DR - Designated Router, N - Default DR Priority,
+      P - Proxy Capable, S - State Refresh Capable, G - GenID Capable
+Neighbor          Interface                Uptime/Expires    Ver   DR
+Address                                                            Prio/Mode
+192.168.41.2      Ethernet1/0              00:34:53/00:01:16 v2    1 / DR S P G
+192.168.34.1      Ethernet1/1              00:36:24/00:01:44 v2    1 / S P G
+192.168.24.1      Ethernet1/2              00:36:25/00:01:17 v2    1 / S P G
+
+
+R5#show ip pim neighbor 
+PIM Neighbor Table
+Mode: B - Bidir Capable, DR - Designated Router, N - Default DR Priority,
+      P - Proxy Capable, S - State Refresh Capable, G - GenID Capable
+Neighbor          Interface                Uptime/Expires    Ver   DR
+Address                                                            Prio/Mode
+192.168.52.2      Ethernet1/0              00:35:10/00:01:30 v2    1 / DR S P G
+192.168.25.1      Ethernet1/3              00:37:11/00:01:28 v2    1 / S P G
+192.168.35.1      Ethernet1/4              00:37:11/00:01:25 v2    1 / S P G
+
+
+R2#show ip pim neighbor 
+PIM Neighbor Table
+Mode: B - Bidir Capable, DR - Designated Router, N - Default DR Priority,
+      P - Proxy Capable, S - State Refresh Capable, G - GenID Capable
+Neighbor          Interface                Uptime/Expires    Ver   DR
+Address                                                            Prio/Mode
+192.168.12.1      Ethernet1/1              00:37:03/00:01:35 v2    1 / S P G
+192.168.24.2      Ethernet1/2              00:37:03/00:01:37 v2    1 / DR S P G
+192.168.25.2      Ethernet1/3              00:37:04/00:01:37 v2    1 / DR S P G
+
+R3#show ip pim neighbor 
+PIM Neighbor Table
+Mode: B - Bidir Capable, DR - Designated Router, N - Default DR Priority,
+      P - Proxy Capable, S - State Refresh Capable, G - GenID Capable
+Neighbor          Interface                Uptime/Expires    Ver   DR
+Address                                                            Prio/Mode
+192.168.34.2      Ethernet1/1              00:37:19/00:01:19 v2    1 / DR S P G
+192.168.13.1      Ethernet1/2              00:37:19/00:01:18 v2    1 / S P G
+192.168.35.2      Ethernet1/4              00:37:20/00:01:20 v2    1 / DR S P G
+
+
+R1#show ip pim neighbor 
+PIM Neighbor Table
+Mode: B - Bidir Capable, DR - Designated Router, N - Default DR Priority,
+      P - Proxy Capable, S - State Refresh Capable, G - GenID Capable
+Neighbor          Interface                Uptime/Expires    Ver   DR
+Address                                                            Prio/Mode
+192.168.12.2      Ethernet1/1              00:38:04/00:01:30 v2    1 / DR S P G
+192.168.13.2      Ethernet1/2              00:38:03/00:01:34 v2    1 / DR S P G
+```

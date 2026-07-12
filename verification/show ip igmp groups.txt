@@ -1,0 +1,53 @@
+show ip igmp groups 
+
+```
+rtr-vtep-1#show ip igmp groups 
+IGMP Connected Group Membership
+Group Address    Interface                Uptime    Expires   Last Reporter   Group Accounted
+239.0.0.10       Tunnel0                  00:24:39  stopped   10.10.10.10     
+224.0.1.40       GigabitEthernet1         00:24:34  00:02:29  192.168.41.1    
+224.0.1.40       Loopback100              00:24:38  00:02:22  10.10.10.10  
+
+rtr-vtep-2#show ip igmp groups 
+IGMP Connected Group Membership
+Group Address    Interface                Uptime    Expires   Last Reporter   Group Accounted
+239.0.0.10       Tunnel0                  00:25:20  stopped   20.20.20.20     
+224.0.1.40       GigabitEthernet1         00:25:12  00:02:42  192.168.52.1    
+224.0.1.40       Loopback100              00:25:19  00:02:45  20.20.20.20  
+
+R4#show ip igmp groups 
+IGMP Connected Group Membership
+Group Address    Interface                Uptime    Expires   Last Reporter   Group Accounted
+239.0.1.10       Ethernet1/1              00:27:37  00:02:30  192.168.34.2    
+224.0.1.40       Ethernet1/1              00:27:34  00:02:29  192.168.34.1    
+224.0.1.40       Ethernet1/0              00:27:37  00:02:32  192.168.41.1 
+
+
+R5#show ip igmp groups 
+IGMP Connected Group Membership
+Group Address    Interface                Uptime    Expires   Last Reporter   Group Accounted
+239.0.1.10       Ethernet1/4              00:28:02  00:02:07  192.168.35.2    
+224.0.1.40       Ethernet1/0              00:28:03  00:01:58  192.168.52.1 
+
+
+R2#show ip igmp groups 
+IGMP Connected Group Membership
+Group Address    Interface                Uptime    Expires   Last Reporter   Group Accounted
+224.0.1.40       Ethernet1/1              00:28:27  00:02:35  192.168.12.2
+
+R3#show ip igmp groups 
+IGMP Connected Group Membership
+Group Address    Interface                Uptime    Expires   Last Reporter   Group Accounted
+239.0.1.10       Ethernet1/4              00:28:41  00:02:24  192.168.35.2    
+239.0.1.10       Ethernet1/1              00:28:42  00:02:25  192.168.34.2    
+224.0.1.40       Ethernet1/1              00:28:43  00:02:20  192.168.34.1 
+
+R1#show ip igmp groups 
+IGMP Connected Group Membership
+Group Address    Interface                Uptime    Expires   Last Reporter   Group Accounted
+224.0.1.40       Ethernet1/1              00:29:00  00:02:02  192.168.12.2    
+224.0.1.40       Loopback100              00:29:02  now       172.30.1.1   
+
+
+
+```

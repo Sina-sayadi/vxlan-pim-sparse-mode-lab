@@ -1,0 +1,28 @@
+show ip pim rp mapping
+
+```
+rtr-vtep-1#show ip pim rp mapping 
+PIM Group-to-RP Mappings
+
+Group(s): 224.0.0.0/4, Static-Override
+    RP: 172.30.1.1 (?)
+
+R4#show ip pim rp mapping 
+PIM Group-to-RP Mappings
+
+Group(s): 224.0.0.0/4, Static-Override
+    RP: 172.30.1.1 (?)
+  
+R3#show ip pim rp mapping 
+PIM Group-to-RP Mappings
+
+Group(s): 224.0.0.0/4, Static-Override
+    RP: 172.30.1.1 (?)
+    
+R1#show ip pim rp mapping 
+Auto-RP is not enabled
+PIM Group-to-RP Mappings
+
+Group(s): 224.0.0.0/4, Static-Override
+    RP: 172.30.1.1 (?)
+```

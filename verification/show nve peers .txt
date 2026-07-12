@@ -1,0 +1,10 @@
+show nve peers
+```
+rtr-vtep-1#show nve peers 
+Interface  VNI      Type Peer-IP          RMAC/Num_RTs   eVNI     state flags UP time
+nve1       6010     L2DP 20.20.20.20
+
+rtr-vtep-2#show nve peers 
+Interface  VNI      Type Peer-IP          RMAC/Num_RTs   eVNI     state flags UP time
+nve1       6010     L2DP 10.10.10.10  
+```
