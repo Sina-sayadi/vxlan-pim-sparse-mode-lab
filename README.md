@@ -85,6 +85,7 @@ Network Engineer | Cisco | SDN | Network Automation
 
 ![Cisco](https://img.shields.io/badge/Cisco-VXLAN-blue)
 ![OSPF](https://img.shields.io/badge/OSPF-Area0-green)
+![EVC](https://img.shields.io/badge/EVC-Bridge_Domain-purple)
 ![PIM](https://img.shields.io/badge/PIM-Sparse_Mode-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
