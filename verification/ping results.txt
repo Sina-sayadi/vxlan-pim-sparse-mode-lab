@@ -1,0 +1,63 @@
+```
+PC1 : 192.168.100.10 255.255.255.0 gateway 192.168.100.1
+
+PC1> ping 192.168.100.1
+
+84 bytes from 192.168.100.1 icmp_seq=1 ttl=255 time=1.500 ms
+84 bytes from 192.168.100.1 icmp_seq=2 ttl=255 time=2.089 ms
+84 bytes from 192.168.100.1 icmp_seq=3 ttl=255 time=2.488 ms
+84 bytes from 192.168.100.1 icmp_seq=4 ttl=255 time=3.288 ms
+84 bytes from 192.168.100.1 icmp_seq=5 ttl=255 time=2.282 ms
+
+PC1> ping 192.168.100.2
+
+84 bytes from 192.168.100.2 icmp_seq=1 ttl=255 time=39.597 ms
+84 bytes from 192.168.100.2 icmp_seq=2 ttl=255 time=36.074 ms
+84 bytes from 192.168.100.2 icmp_seq=3 ttl=255 time=36.343 ms
+84 bytes from 192.168.100.2 icmp_seq=4 ttl=255 time=36.902 ms
+84 bytes from 192.168.100.2 icmp_seq=5 ttl=255 time=36.921 ms
+
+PC1> ping 192.168.100.20
+
+84 bytes from 192.168.100.20 icmp_seq=1 ttl=64 time=50.636 ms
+84 bytes from 192.168.100.20 icmp_seq=2 ttl=64 time=47.576 ms
+84 bytes from 192.168.100.20 icmp_seq=3 ttl=64 time=47.544 ms
+84 bytes from 192.168.100.20 icmp_seq=4 ttl=64 time=46.881 ms
+84 bytes from 192.168.100.20 icmp_seq=5 ttl=64 time=48.109 ms
+
+
+```
+
+------------------
+```
+R4#ping 239.0.1.10
+
+Type escape sequence to abort.
+Sending 1, 100-byte ICMP Echos to 239.0.1.10, timeout is 2 seconds:
+
+Reply to request 0 from 192.168.35.2, 68 ms
+Reply to request 0 from 192.168.35.2, 96 ms
+Reply to request 0 from 192.168.35.2, 84 ms
+Reply to request 0 from 192.168.34.2, 68 ms
+Reply to request 0 from 192.168.34.2, 68 ms
+
+```
+------------------
+```
+R1# ping 239.0.1.10
+
+Type escape sequence to abort.
+Sending 1, 100-byte ICMP Echos to 239.0.1.10, timeout is 2 seconds:
+
+Reply to request 0 from 192.168.35.2, 32 ms
+Reply to request 0 from 192.168.35.2, 64 ms
+Reply to request 0 from 192.168.34.2, 64 ms
+Reply to request 0 from 192.168.34.2, 64 ms
+Reply to request 0 from 192.168.34.2, 64 ms
+Reply to request 0 from 192.168.34.2, 64 ms
+Reply to request 0 from 192.168.35.2, 56 ms
+Reply to request 0 from 192.168.35.2, 56 ms
+```
+
+
+
